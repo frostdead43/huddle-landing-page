@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("../images/background.jpeg");
+    background-size: cover;
+}
+
+header {
+    margin-top: 64px;
+    margin-bottom: 100px;
+}
+
+.content {
+    display: flex;
+    margin-left: 80px;
+}
+
+.big-img {
+    position: relative;
+    width: 657.64px;
+    z-index: 0;
+}
+
+.small-img {
+    position: absolute;
+    top: 50%;
+    left: 33%;
+}
+
+.text-content {
+    text-align: left;
+    max-width: 600px;  
+    margin-left:97px ;
+}
+
+h4 {
+    font-family: "Poppins", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    text-align: left;
+    margin-bottom: 12px;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    margin-top: 12px;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 24px;
+    padding: 13px 63px 16px 62px;
+    border: 1px solid rgba(255, 255, 255, 1) ;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(104, 75, 177, 1);
+    border-radius: 30px;
+    box-shadow: 2px 4px 9px 3px rgba(0, 0, 0, 0.26);
+}
+
+a:hover {
+    cursor: pointer;
+    background-color: rgba(255, 82, 193, 1);
+    border: rgba(255, 82, 193, 1);
+    color: white;
+}
+
+
+footer {
+    margin-top: 10px;
+}
+
+.icons {
+    margin: 100px 80px 40px auto;
+    text-align: right;
+}
+
+.icon1 {
+    margin-right: 8px;
+}
+
+.icon2 {
+    margin-right: 8px;
+}
+
+.icon1:hover {
+    cursor: pointer;
+    filter: brightness(50%) saturate(100%) invert(76%) sepia(15%) saturate(6165%) hue-rotate(302deg) brightness(97%) contrast(96%);
+}
+
+.icon2:hover {
+    cursor: pointer;
+    filter: brightness(50%) saturate(100%) invert(76%) sepia(15%) saturate(6165%) hue-rotate(302deg) brightness(97%) contrast(96%);
+}
+
+.icon3:hover {
+    cursor: pointer;
+    filter: brightness(50%) saturate(100%) invert(76%) sepia(15%) saturate(6165%) hue-rotate(302deg) brightness(97%) contrast(96%);
+}
+
+
+
